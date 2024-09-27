@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Hero from "./LandingPage/hero";
-
+import Header from "./LandingPage/Header";
+import Nav from "./LandingPage/Nav";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-    <Hero/>
+    <div className="max-w-[1200px] p-8 m-auto  "> 
+    <Nav/> 
+    <Header/>
     </div>
   );
 }

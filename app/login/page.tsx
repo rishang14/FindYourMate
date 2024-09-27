@@ -1,7 +1,7 @@
 import React from 'react' 
 import LoginUI from './loginUI'
 import Home from '../page'
-import Hero from '../LandingPage/hero'
+import Hero from '../LandingPage/Nav'
 
 const page = () => {
   return (
