@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Nav = () => {
   return (
-    <nav className='flex  rounded-full  backdrop-blur bg-opacity-50 bg-slate-950   w-[100%] lg:max-w-[1150px] border border-slate-500 p-5'>
+    <nav className='flex  rounded-full z-50 backdrop-blur bg-opacity-50 bg-slate-950   w-[100%] lg:max-w-[1150px] border border-slate-500 p-5'>
     <div className='flex items-center w-[80%] px-4  gap-2'>
      <Link className='text-2xl gap-2 font-bold' href={"/"}> 
       SportsBuddy

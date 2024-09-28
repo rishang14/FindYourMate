@@ -11,7 +11,12 @@ const Header = () => {
     </div>
     <div className='p-2  w-[85%] flex justify-center '>
      <p className='text-xl text-center font-bold text-slate-400'>Never let your sports and fitness cravings fade just because no one's free. We help you find partners and let professionals book a bowler. Always aim to upgrade yourself and stay fit!</p>
-    </div> 
+    </div>  
+     <div className='flex justify-center p-4 items-center gap-4'>
+        <button className='p-2 rounded-md bg-gray-200 text-slate-700'>Demo 1 </button> 
+        <span className='text-5xl p-2'>|</span>
+        <button className='p-2 rounded-md  bg-gray-200 text-slate-700'>Demo 2 </button>
+     </div>
     </div> 
     </>
   )
