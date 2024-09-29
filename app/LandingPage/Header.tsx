@@ -24,7 +24,7 @@ const Header = () => {
           }}
         >
           <motion.h1
-            className="text-6xl p-2 text-center font-bold"
+            className="lg:text-6xl text-4xl p-2 text-center font-bold"
             initial={{ fontSize: "40px", opacity: 0, lineHeight: 1 }}
             whileInView={{ fontSize: "60px", lineHeight: 1, opacity: 1 }}  
             transition={{ease:"easeOut",duration:0.5}}
