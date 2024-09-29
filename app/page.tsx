@@ -1,3 +1,5 @@
+"use client";
+
 import Feature from "./LandingPage/Feature";
 import Footer from "./LandingPage/Footer";
 import Header from "./LandingPage/Header";
