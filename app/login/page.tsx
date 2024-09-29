@@ -1,15 +1,27 @@
 import React from 'react' 
 import LoginUI from './loginUI'
-import Home from '../page'
-import Hero from '../LandingPage/Nav'
-import Footer from '../LandingPage/Footer'
+import Nav from '../LandingPage/Nav'
+import Footer from '../LandingPage/Footer' 
+
+
+type navlink={
+  name:string,
+  href:string
+}
+
+const Link:navlink[]=[ 
+  {name:"Login", href:"/"} ,
+  {name:"Register",href:"/"}
+
+]; 
 
 const page = () => {
   return (
 <> 
-<p>Hello</p>
-<LoginUI/> 
-<Hero/> 
+<Nav Links={Link}/>
+<LoginUI/>  
+<Footer/>
+
 
 </>
 )
