@@ -1,24 +1,39 @@
 import Image from "next/image";
 import React from "react";
+import {easeIn, easeInOut, motion} from "framer-motion"
 import bookingimg from "../../assets/Booking.webp";
-import running from "../../assets/Running.png";
+import running from "../../assets/Running.png"; 
 
 const Feature = () => {
   return (
     <>
       <div className="flex flex-col justify-center p-5 w-full ">
-        <div className="p-2 w-full ">
-          <h1 className="text-7xl font-bold text-center p-3">What We Do?</h1>
-          <p className="text-xl text-center fonnt-bold  text-slate-400">
+        <motion.div className="p-2 w-full "
+        initial={{x:30,opacity:0}} 
+        whileInView={{x:0,opacity:1}} 
+        transition={{duration:2,ease:"easeIn"}}
+        >
+          <h1 className="text-7xl font-bold text-center p-3"
+          >What We Do?</h1>
+          <motion.p className="text-xl text-center font-bold  text-slate-400"
+          initial={{y:20,x:20,fontWeight:100}}
+          whileInView={{y:0,x:0,fontWeight:700}} 
+          transition={{duration:1.4,ease:"easeInOut"}}
+          >
             {" "}
             "We help you find the perfect sports buddy!" —"Whether You&apos;re a
             Professional or a Fitness Enthusiast!"—
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
         <div className="p-2 flex flex-col  justify-center">
-          <h2 className="text-3xl mt-5 p-3 ml-9 font-bold text-[#146ef5] ">
+          <motion.h2 className=" mt-5 p-3 ml-9 font-bold"
+          initial={{color:"#fff",fontSize:"20px",opacity:0.4}}
+          whileInView={{color:"#146ef5",fontSize:"30px",lineHeight:"36px",opacity:1}} 
+          transition={{duration:1,ease:"easeIn"}}
+          >
+
             For-Professionals
-          </h2>
+          </motion.h2>
           <div className="flex items-center  border-1 border-x-slate-50 p-2 justify-center w-full m-auto">
             <div className="lg:w-[60%] p-2 flex flex-col ">
               <div className="p-2">
