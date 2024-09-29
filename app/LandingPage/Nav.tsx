@@ -14,7 +14,7 @@ const Nav = () => {
     <div className='flex items-center gap-4 px-4 '>
       <Link className='text-slate-400 font-bold hover:text-cyan-400' href={"/"}> Professionals</Link>
       <Link className='text-slate-400 font-bold  hover:text-cyan-400'  href={"/"}> Socials</Link>
-      <Link className='text-slate-400 font-bold  hover:text-cyan-400' href={"/"}> Login</Link>
+      <Link className='text-slate-400 font-bold  hover:text-cyan-400' href={"/login"}> Login</Link>
       <Link className='text-slate-400 font-bold  hover:text-cyan-400' href={"/"}> Register</Link>
     </div>
     </nav>
