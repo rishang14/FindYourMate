@@ -15,7 +15,7 @@ type props = {
 const Header = ({ props }: { props: props }) => {
   return (
     <>
-      <div className="w-full lg:mt-[5rem] md:mt-[2rem] mt-[1rem] flex flex-col h-full items-center lg:p-4">
+      <div className="w-full lg:mt-[5rem] md:mt-[2rem] mt-[3rem] flex flex-col h-full items-center lg:p-4">
         <motion.div
           className="lg:p-4"
           initial={{
@@ -32,7 +32,7 @@ const Header = ({ props }: { props: props }) => {
             duration: 1,
           }}
         >
-          <motion.h1 className="lg:text-6xl md:text-4xl text-3xl p-2 text-center font-bold">
+          <motion.h1 className="lg:text-6xl md:text-4xl text-4xl lg:p-2  p-1 lg:text-center text-start font-bold">
             {props.heading}
           </motion.h1>
         </motion.div>
@@ -50,7 +50,7 @@ const Header = ({ props }: { props: props }) => {
             duration: 1,
           }}
         >
-          <p className="lg:text-xl  text-center font-bold text-gray-200">
+          <p className="lg:text-xl lg:mt-[0] mt-[2rem] lg:text-center p-2  font-bold text-gray-200">
             {props.para}
           </p>
         </motion.div>

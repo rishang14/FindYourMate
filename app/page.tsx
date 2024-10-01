@@ -34,8 +34,8 @@ export default function Home() {
     <Nav Links={navLinks}/> 
     <Header props={HeaderContent}/> 
     </div> 
-    <Feature/>
     </div>  
+    <Feature/>
     <Footer/>
     </>
   );
