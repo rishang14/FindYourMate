@@ -15,8 +15,10 @@ const Link: navlink[] = [
 const page = () => {
   return (
     <>
+      <div className="lg:max-w-[1200px] md:max-w-[900px] w-full  lg:p-8 p-1 m-auto  "> 
       <Nav Links={Link} />
-      <LoginUI />
+      <LoginUI />  
+      </div>
       <Footer />
     </>
   );

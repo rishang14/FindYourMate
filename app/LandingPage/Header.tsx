@@ -3,38 +3,38 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Header = () => {
+type props = {
+  heading: string;
+  para: string;
+  button?: string;
+};
+
+const Header = ({ props }: { props: props }) => {
   return (
     <>
-      <div className="w-full mt-[5rem] flex flex-col h-full items-center p-4">
+      <div className="w-full lg:mt-[5rem] md:mt-[2rem] mt-[1rem] flex flex-col h-full items-center lg:p-4">
         <motion.div
-          className="p-4 "
+          className="lg:p-4"
           initial={{
             opacity: 0,
-            y:-20, 
-            x:-20 
+            y: 20,
+            x: 20,
           }}
           whileInView={{
             opacity: 1,
-            y: 0, 
-            x:0
-          }} 
+            y: 0,
+            x: 0,
+          }}
           transition={{
             duration: 1,
           }}
         >
-          <motion.h1
-            className="lg:text-6xl text-4xl p-2 text-center font-bold"
-            initial={{ fontSize: "40px", opacity: 0, lineHeight: 1 }}
-            whileInView={{ fontSize: "60px", lineHeight: 1, opacity: 1 }}  
-            transition={{ease:"easeOut",duration:0.5}}
-          >
-            Let us find the perfect sports buddy to fuel your fitness and sports
-            cravings!
+          <motion.h1 className="lg:text-6xl md:text-4xl text-3xl p-2 text-center font-bold">
+            {props.heading}
           </motion.h1>
         </motion.div>
         <motion.div
-          className="p-2  w-[85%] flex justify-center"
+          className="lg:p-2  lg:w-[85%] w-full flex justify-center"
           initial={{
             opacity: 0,
             x: 60,
@@ -47,34 +47,19 @@ const Header = () => {
             duration: 1,
           }}
         >
-          <p className="text-xl text-center font-bold text-slate-400">
-            Never let your sports and fitness cravings fade just because no
-            one's free. We help you find partners and let professionals book a
-            bowler. Always aim to upgrade yourself and stay fit!
+          <p className="lg:text-xl  text-center font-bold text-slate-400">
+            {props.para}
           </p>
         </motion.div>
-        <div
-          className="flex justify-center p-4 items-center "
-        >
-          <motion.button className="p-2 rounded-md bg-gray-200 text-slate-700"
-          initial={{rotate:360}} 
-          whileInView={{rotate:0}} 
-          transition={{ease:"easeIn",duration:1}}
-          >
-            Demo 1{" "}
-          </motion.button>
-          <motion.span className="text-5xl p-2"
-          initial={{scale:0}}
-          whileInView={{scale:1}} 
-          transition={{duration:1,ease:"easeIn"}}
-          >|</motion.span>
-          <motion.button className="p-2 rounded-md  bg-gray-200 text-slate-700"
-          initial={{rotate:-360}} 
-          whileInView={{rotate:0}} 
-          transition={{ease:"easeIn",duration:1}}
-          >
-            Demo 2{" "}
-          </motion.button>
+        <div className="flex justify-center p-4 items-center ">
+              <motion.button
+                className="p-2 rounded-md  bg-gray-200 text-slate-700"
+                initial={{ background: "#fff" }}
+                whileInView={{ background: " #e5e7eb" }}
+                transition={{ duration: 1 }}
+              >
+                {props.button}
+              </motion.button>
         </div>
       </div>
     </>
