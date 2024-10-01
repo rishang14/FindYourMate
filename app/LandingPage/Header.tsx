@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; 
+import { MotionButton, } from "../Component/Button";
+import { IoIosArrowRoundForward } from "react-icons/io";
+
 
 type props = {
   heading: string;
@@ -47,19 +50,18 @@ const Header = ({ props }: { props: props }) => {
             duration: 1,
           }}
         >
-          <p className="lg:text-xl  text-center font-bold text-slate-400">
+          <p className="lg:text-xl  text-center font-bold text-gray-200">
             {props.para}
           </p>
         </motion.div>
         <div className="flex justify-center p-4 items-center ">
-              <motion.button
-                className="p-2 rounded-md  bg-gray-200 text-slate-700"
-                initial={{ background: "#fff" }}
-                whileInView={{ background: " #e5e7eb" }}
-                transition={{ duration: 1 }}
-              >
-                {props.button}
-              </motion.button>
+         <MotionButton   className=" hover:bg-[#2860b4]" variant={"default"} size={"lg"} 
+         initial={{background:"#fff",color:"black"}} 
+         whileInView={{background:"#146ef5",color:"#fff"}} 
+         whileHover={{scale:1.2}} 
+         >
+           Get Started  <IoIosArrowRoundForward color="#fff" size={"25px"}/>
+         </MotionButton>
         </div>
       </div>
     </>

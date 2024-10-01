@@ -16,7 +16,7 @@ const Feature = () => {
         >
           <h1 className="lg:text-7xl md:text-5xl text-3xl font-bold text-center p-3">What We Do?</h1>
           <motion.p
-            className="text-xl text-center font-bold  text-slate-400"
+            className="text-xl text-center font-bold  text-gray-200"
             initial={{ y: 20, x: 20, fontWeight: 100 }}
             whileInView={{ y: 0, x: 0, fontWeight: 700 }}
             transition={{ duration: 1.4, ease: "easeInOut",repeatType:"reverse" }}

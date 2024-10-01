@@ -20,7 +20,7 @@ const Nav = ({Links}:{Links:link[]}) => {
       {
         Links.map((item,index) =>{
           return (
-            <Link  href={item.href} className='text-slate-400 font-bold hover:text-cyan-400' key={index} > {item.name}</Link>
+            <Link  href={item.href} className='text-gray-200 font-bold hover:text-blue-400' key={index} > {item.name}</Link>
           )
         })
       }
