@@ -60,7 +60,7 @@ const Header = ({ props }: { props: props }) => {
          whileInView={{background:"#146ef5",color:"#fff"}} 
          whileHover={{scale:1.2}} 
          >
-           Get Started  <IoIosArrowRoundForward color="#fff" size={"25px"}/>
+          {props.button}  <IoIosArrowRoundForward color="#fff" size={"25px"}/>
          </MotionButton>
         </div>
       </div>

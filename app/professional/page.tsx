@@ -1,7 +1,7 @@
 import React from "react";
 import LoginUI from "./loginUI";
-import Nav from "../LandingPage/Nav";
-import Footer from "../LandingPage/Footer";
+import Nav from "../Sections/Nav";
+import Footer from "../Sections/Footer";
 type navlink = {
   name: string;
   href: string;
