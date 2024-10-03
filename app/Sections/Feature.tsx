@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { MotionButton } from "../Component/Button";
 import bookingimg from "../../assets/Booking.webp";
 import football from "../../assets/Footballimg.jpeg"
-
+import Link from "next/link";
 const Feature = () => {
   return (
     <>
@@ -85,16 +85,20 @@ const Feature = () => {
                   throwing partner is easy, so you can enhance your skills and
                   elevate your game to the next level!"
                 </motion.p>
-                 <div className="p-2 ">
+                 <div className="p-2 "> 
+                  <Link href="/professional">
                  <MotionButton 
                  size={"lg"} 
+                 variant={"default"}
                   className="p-2 mt-3 rounded-lg justify-start  bg-cyan-600 m-auto"
-                  initial={{ backgroundColor: "#fff" }}
-                  whileInView={{ backgroundColor: "#0891b2", }}
+                  initial={{ backgroundColor: "#fff", }}
+                  whileInView={{ backgroundColor: "#2860b4",scale:1 }}
+                  whileHover={{scale:1.2}}
                   transition={{ duration: 1 ,repeatType:"reverse"}}
                 >
-                  Demo button -3{" "}
-                </MotionButton>
+                  Learn More{" "}
+                </MotionButton> 
+                </Link>
                  </div>
               </motion.div>
             </div>
@@ -165,16 +169,21 @@ const Feature = () => {
                   real life and keep your fitness goals on track with a
                   community that motivates you!"
                 </motion.p>
-                 <div className="p-2 ">
+                 <div className="p-2 "> 
+              
                  <MotionButton 
                  size={"lg"} 
-                  className="p-2 mt-3 rounded-lg justify-start  bg-cyan-600 m-auto"
+                 variant={"default"}
+                  className="p-2 mt-3 rounded-lg justify-start   m-auto"
                   initial={{ backgroundColor: "#fff" }}
-                  whileInView={{ backgroundColor: "#0891b2", }}
+                  whileInView={{ backgroundColor: "#2860b4",scale:1 }} 
+                  whileHover={{scale:1.2}}
                   transition={{ duration: 1 ,repeatType:"reverse"}}
-                >
-                  Demo button -3{" "}
-                </MotionButton>
+                > 
+                    <Link href="/socials">
+                  Learn more{" "}
+                    </Link>
+                </MotionButton> 
                  </div>
               </motion.div>
             </div>
