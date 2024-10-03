@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { MotionButton } from "../../Component/Button";
 import AnimatedText from "@/app/Sections/AnimatedText";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { BiCricketBall } from "react-icons/bi";
 import cricketImg from "../../../assets/cricketimmg.jpeg";
 
 const variety: Array<string> = [
@@ -22,7 +21,7 @@ const Deatils = () => {
   const scrollref = useRef(null);
   return (
     <>
-      <div className="bg-white w-full  lg:p-4 border border-gray-900">
+      <div className="bg-white w-full  lg:p-4 border border-black">
         <motion.div 
           className="lg:p-3 p-2 lg:mt-5 max-w-[1300px] m-auto"
           initial={{ x: 20,y:20 }}

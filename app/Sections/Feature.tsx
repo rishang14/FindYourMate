@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MotionButton } from "../Component/Button";
 import bookingimg from "../../assets/Booking.webp";
-import football from "../../assets/Football.jpeg"
+import football from "../../assets/Footballimg.jpeg"
 
 const Feature = () => {
   return (

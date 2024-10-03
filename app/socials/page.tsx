@@ -2,8 +2,8 @@
 import React from "react";
 import Header from "../Sections/Header";
 import Nav from "../Sections/Nav";
-import Footer from "../Sections/Footer";
-import Deatils from "./Component/Deatils"; 
+import Footer from "../Sections/Footer"; 
+import Deatils from "./component/Deatils";
 type navlink = {
   name: string;
   href: string;
@@ -22,9 +22,9 @@ const Link: navlink[] = [
 ];
 
 const heading:HeaderContent ={ 
-  heading:"Become a Cricket Pro and Achieve Your Dream with SportsBuddy!", 
-  para:"Looking to upgrade your batting skills or earn extra income as a bowler or thrower? We're here to help with both!",
-  button:"Join us"
+  heading:"Don't hold back on your fitness and sports cravings!,", 
+  para:"Don’t suppress your sports and fitness cravings just because no one’s available—let us help you! Find your fitness partner or build your sports team today.",
+  button:"Register Now"
   
 } 
 
@@ -35,7 +35,7 @@ const page = () => {
       <Nav Links={Link} />
       <Header props={heading}/>
       </div>  
-      <Deatils/> 
+      <Deatils/>
       <Footer />
     </>
   );
