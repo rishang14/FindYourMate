@@ -33,12 +33,13 @@ export default function Home() {
   return (
      <>
     <div className="lg:max-w-[1200px] md:max-w-[900px] w-full  lg:p-8 p-1 m-auto  "> 
-    <div className="h-[full] w-[100%] mb-[4.8rem]">
+    <div className="lg:h-[100vh] h-full w-[100%] lg:mb-[0] mb-[4.8rem]">
     <Nav Links={navLinks}/> 
     <Header props={HeaderContent}/> 
     </div> 
     </div>  
-    <Feature/> 
+    <Feature/>  
+    <AnimatedText text={animatedText} color="#fff"/>
     <Footer/>
     </>
   );
