@@ -6,4 +6,4 @@ const LoginUI = () => {
   )
 }
 
-export default LoginUI
+export default LoginUI 
