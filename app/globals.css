@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground:#080808;
+} 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +24,6 @@ body {
   background: var(--background);  
   font-family: Arial, Helvetica, sans-serif; 
   width: 100%; 
-  box-sizing: border-box;
 }
 
 @layer utilities {
