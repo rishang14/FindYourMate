@@ -21,7 +21,7 @@ const HeaderContent:HeaderContent={
   para:  "Never let your sports and fitness cravings fade just because no one's free. We help you find partners and let professionals book a  bowler. Always aim to upgrade yourself and stay fit!",
   button:"Get Started"
 } 
-const animatedText:string= `Join us, and let's  fulfill your passion for sports together!`
+const animatedText:string= `Join us, and let's fulfill your passion for sports together!`
 
 import Feature from "./Sections/Feature";
 import Footer from "./Sections/Footer";
