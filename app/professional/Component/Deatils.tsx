@@ -101,12 +101,11 @@ const Deatils = () => {
           </div>
           <motion.div
             className="flex gap-2 lg:w-[30%] w-full lg:mx-0 mx-auto lg:mt-10 mt-3  items-center justify-end flex-col flex-wrap "
-            initial={{ y: -20, x: 20 }}
+            initial={{ y:20, x: 20 }}
             whileInView={{ y: 0, x: 0 }}
-            viewport={{ root: scrollref }}
             transition={{ ease: "linear", duration:1 }}
           >
-            <motion.p className=" lg:text-2xl text-start font-extralight text-black"
+            <motion.p className=" lg:text-2xl text-start font-extralight p-2 text-black"
             initial={{opacity:0.4,x:-20}} 
             whileInView={{opacity:1,x:0}}
             transition={{duration:1}}
@@ -117,7 +116,7 @@ const Deatils = () => {
                 <MotionButton
                   size={"lg"}
                   variant={"default"}
-                  className='" hover:bg-[#2860b4] '
+                  className='" hover:bg-[#2860b4] justify-start'
                   initial={{ background: "#fff", color: "black" }}
                   whileInView={{ background: "#146ef5", color: "#fff" }}
                   whileHover={{ scale: 1.2 }}
