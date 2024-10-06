@@ -147,7 +147,7 @@ const Deatils = () => {
         <h1 className="lg:text-6xl text-2xl font-bold text-start text-black">Ready to Elevate Your Game?</h1>
        </div> 
        <div className="lg:w-[55%] w-full p-1 flex flex-col ">
-        <p className="lg:text-xl text-start text-black font-extralight ">"Find a running or exercise partner, or build your sports team—we've got you covered. Join SportsBuddy today to boost your fitness, sharpen your skills, and connect with like-minded athletes. Your journey starts now!"</p>
+        <p className="lg:text-xl text-start text-black font-extralight ">"Find a running or exercise partner, or build your sports team—we&apos;ve got you covered. Join SportsBuddy today to boost your fitness, sharpen your skills, and connect with like-minded athletes. Your journey starts now!"</p>
         <div>
 
         <MotionButton

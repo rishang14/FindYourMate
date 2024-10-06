@@ -53,10 +53,10 @@ const Deatils = () => {
               transition={{duration:1}}
               >
                 <p className="lg:text-xl font-extralight text-black text-start">
-                  "Whether you’re looking to refine your technique or take your
+                  "Whether you&apos;re looking to refine your technique or take your
                   game to the next level, SportsBuddy connects you with top-tier
                   bowlers and throwers for professional practice. With flexible
-                  booking options and personalized matchups, you’ll always have
+                  booking options and personalized matchups, you&apos;ll always have
                   the right partner to help you improve. Why settle for less
                   when you can train with the best?"
                 </p>
@@ -112,7 +112,7 @@ const Deatils = () => {
             transition={{duration:1}}
             > 
             
-            Book a bowler or thrower at your convenience, for the time you need, and they’ll come right to your doorstep!"
+            Book a bowler or thrower at your convenience, for the time you need, and they&apos;ll come right to your doorstep!"
             </motion.p>
                 <MotionButton
                   size={"lg"}
