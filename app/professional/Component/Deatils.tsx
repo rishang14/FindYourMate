@@ -7,16 +7,16 @@ import AnimatedText from "@/app/Sections/AnimatedText";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import cricketImg from "../../../assets/cricketimmg.jpeg";
 
-const variety: Array<string> = [
-  "Fast Right/Left-Handed",
-  "Spin Right/Left-Handed",
-  "Leg Spin Right/Left-Handed",
-  "Off Spin Right/Left-Handed",
-  "Chinaman Left-Handed",
-  "Thrower Right/Left handed",
-];
+// const variety: Array<string> = [
+//   "Fast Right/Left-Handed",
+//   "Spin Right/Left-Handed",
+//   "Leg Spin Right/Left-Handed",
+//   "Off Spin Right/Left-Handed",
+//   "Chinaman Left-Handed",
+//   "Thrower Right/Left handed",
+// ];
 
-const animatedText: string = "Enhance your batting skills with their help!";
+const animatedText: string = "Enhance your batting skills with their help";
 const Deatils = () => {
   const scrollref = useRef(null);
   return (
@@ -44,7 +44,7 @@ const Deatils = () => {
               transition={{duration:1,ease:"easeOut"}}
               >
                 <h2 className="lg:text-5xl text-2xl text-[#146ef5] text-start">
-                  "Unlock Your Batting Potential with SportsBuddy"
+                  Unlock Your Batting Potential with SportsBuddy
                 </h2>
               </motion.div>
               <motion.div className="mt-4 max-w-[700px]"
@@ -53,12 +53,12 @@ const Deatils = () => {
               transition={{duration:1}}
               >
                 <p className="lg:text-xl font-extralight text-black text-start">
-                  "Whether you’re looking to refine your technique or take your
+                  Whether you&apos;re looking to refine your technique or take your
                   game to the next level, SportsBuddy connects you with top-tier
                   bowlers and throwers for professional practice. With flexible
-                  booking options and personalized matchups, you’ll always have
+                  booking options and personalized matchups, you&apos;ll always have
                   the right partner to help you improve. Why settle for less
-                  when you can train with the best?"
+                  when you can train with the best?
                 </p>
               </motion.div>
               <motion.div className="mt-3">
@@ -112,7 +112,7 @@ const Deatils = () => {
             transition={{duration:1}}
             > 
             
-            Book a bowler or thrower at your convenience, for the time you need, and they’ll come right to your doorstep!"
+            Book a bowler or thrower at your convenience, for the time you need, and they&apos;ll come right to your doorstep
             </motion.p>
                 <MotionButton
                   size={"lg"}

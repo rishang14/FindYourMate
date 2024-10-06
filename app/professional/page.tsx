@@ -22,8 +22,8 @@ const Link: navlink[] = [
 ];
 
 const heading:HeaderContent ={ 
-  heading:"Become a Cricket Pro and Achieve Your Dream with SportsBuddy!", 
-  para:"Looking to upgrade your batting skills or earn extra income as a bowler or thrower? We're here to help with both!",
+  heading:"Become a Cricket Pro and Achieve Your Dream with SportsBuddy", 
+  para:"Looking to upgrade your batting skills or earn extra income as a bowler or thrower? We're here to help with both",
   button:"Join us"
   
 } 

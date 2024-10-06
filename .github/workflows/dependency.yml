@@ -1,13 +1,11 @@
-name: GitHub Actions Demo
+name: Dependency
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
+
  pull_request:
     branches:
-      - master
+     ["master"]
 
-    push: 
-    branches:
-     -master
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
