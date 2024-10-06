@@ -93,10 +93,11 @@ const Deatils = () => {
                 transition={{ duration: 1 }}
               >
                 <p className="lg:text-xl font-extralight  text-start">
-                  "Forget wasting time at the ground, hoping to join a team.
-                  With our platform, you can quickly connect with like-minded
-                  players and build your team—right from home. Play smarter,
-                  your sports community is just a click away!"
+                  &quot;Forget wasting time at the ground, hoping to join a
+                  team. With our platform, you can quickly connect with
+                  like-minded players and build your team&mdash;right from home.
+                  Play smarter, your sports community is just a click
+                  away!&quot;
                 </p>
               </motion.div>
               <motion.div className="mt-3">
@@ -154,10 +155,10 @@ const Deatils = () => {
           </div>
           <div className="lg:w-[55%] w-full p-1 flex flex-col ">
             <p className="lg:text-xl text-start text-black font-extralight ">
-              "Find a running or exercise partner, or build your sports
-              team—we&apos;ve got you covered. Join SportsBuddy today to boost
-              your fitness, sharpen your skills, and connect with like-minded
-              athletes. Your journey starts now!"
+              &quot;Find a running or exercise partner, or build your sports
+              team&mdash;we&apos;ve got you covered. Join SportsBuddy today to
+              boost your fitness, sharpen your skills, and connect with
+              like-minded athletes. Your journey starts now!&quot;
             </p>
             <div>
               <MotionButton
