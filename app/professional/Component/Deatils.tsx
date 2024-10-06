@@ -7,16 +7,16 @@ import AnimatedText from "@/app/Sections/AnimatedText";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import cricketImg from "../../../assets/cricketimmg.jpeg";
 
-const variety: Array<string> = [
-  "Fast Right/Left-Handed",
-  "Spin Right/Left-Handed",
-  "Leg Spin Right/Left-Handed",
-  "Off Spin Right/Left-Handed",
-  "Chinaman Left-Handed",
-  "Thrower Right/Left handed",
-];
+// const variety: Array<string> = [
+//   "Fast Right/Left-Handed",
+//   "Spin Right/Left-Handed",
+//   "Leg Spin Right/Left-Handed",
+//   "Off Spin Right/Left-Handed",
+//   "Chinaman Left-Handed",
+//   "Thrower Right/Left handed",
+// ];
 
-const animatedText: string = "Enhance your batting skills with their help!";
+const animatedText: string = "Enhance your batting skills with their help";
 const Deatils = () => {
   const scrollref = useRef(null);
   return (
